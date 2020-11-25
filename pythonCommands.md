@@ -1,5 +1,6 @@
 ## Virtual Environment
 ```python3 -m venv --system-site-packages ./venv
+// Setup
 source ./venv/bin/activate
 pip install --upgrade pip
 pip list  
@@ -9,5 +10,10 @@ python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1
 pip install jupyter
 jupyter notebook
 
-deactivate // when you are out
+// Next time  
+source ./venv/bin/activate
+jupyter notebook
+
+// when you quit
+deactivate
 ```
