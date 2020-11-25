@@ -1,4 +1,4 @@
-## Virtual Environment
+## Python Virtual Environmentand jupyter notebook
 ```python3 -m venv --system-site-packages ./venv
 // Setup
 source ./venv/bin/activate
